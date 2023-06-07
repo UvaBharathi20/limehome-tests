@@ -1,4 +1,4 @@
-describe('Positive Tests', () => {
+describe('Testing calculator app with positive  Test cases', () => {
   
   it('test calcualtor addition',() => {
     cy.fixture('inputs').then((inputs) => {

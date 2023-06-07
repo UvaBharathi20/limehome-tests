@@ -6,9 +6,11 @@
 				"data":
 					[
 						{ "input1": 2, "input2": 1, "output":[3, 2, 0, 2, 1]},
+						{ "input1": -2, "input2": 1, "output":[-1, -2, 0, -2, -3]},
+						{ "input1": -2, "input2": -1, "output":[-3, 2, 0, 2, -1]},
+						{ "input1": 2, "input2": -1, "output":[1, -2, 0, -2, 3]},
 						{ "input1": 3, "input2": 2, "output":[5, 1.5, 1, 6, 1]},
 						{ "input1": 10.4, "input2": 3.6, "output":[14, 2.88, 3.2, 37.44, 6.8]}
-						
 					]
 			}
 	},
@@ -18,10 +20,10 @@
 			{
 				"data":
 					[
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" }
+						{ "input1": "two", "input2": "one", "output":["NaN","NaN","NaN","NaN","NaN"] },
+						{ "input1": "", "input2": "", "output":["NaN","NaN","NaN","NaN","NaN"] }
+						
+						
 					]
 			}
 	},
@@ -31,10 +33,9 @@
 			{
 				"data":
 					[
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" }
+						{ "input1": "1.7E", "input2": "1.7E", "output":["2.FD","2.FD", "2.9F","2.9F","2.9F"] },
+						{"input1": 0, "input2": 1, "output":[1, 0, 0, 0, -1]},
+						{"input1": 1, "input2": 0, "output":[1, "Infinity", 0, 0, 1]}
 					]
 			}
 	},
@@ -44,10 +45,7 @@
 			{
 				"data":
 					[
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" },
-						{ "input1": "2", "input2": "1" }
+						{ "input1": "2147483647 ", "input2": "2147483647 " }
 					]
 			}
 	}
