@@ -10,6 +10,8 @@
 
 ## Setup
 checkout the project.
+git clone https://github.com/UvaBharathi20/limehome-tests.git
+then cd limehome-tests
 
 run the follwoing command to generate reports.
 ```
