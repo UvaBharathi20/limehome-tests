@@ -15,8 +15,6 @@ run the follwoing command to generate reports.
 ```
 npm i --save-dev cypress-mochawesome-reporter
 ```
-- You can also kick off a headless test run of the test suite using `npx cypress run`.
-
 
 ### Adding Cypress to your project
 
@@ -36,6 +34,8 @@ From there, add the following to the scripts section of your `package.json`:
 ```
 
 This will allow you to launch the UI Test Runner using `npm run cypress:open` and the CLI Test Runner using `npm run cypress` (or their Yarn equivalents).
+
+- You can also kick off a headless test run of the test suite using `npx cypress run`.
 
 When a new version of Cypress becomes available, you can update it within your repo using `npm install --save-dev cypress@x.y.z` or `yarn upgrade cypress@x.y.z`, where `x.y.z` is the version of Cypress (e.g. `10.11.0`) you want to install.
 
