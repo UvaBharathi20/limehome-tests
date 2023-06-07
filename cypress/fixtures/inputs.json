@@ -1,0 +1,54 @@
+[
+	{
+		"type": "positive cases",
+		"datas":
+			{
+				"data":
+					[
+						{ "input1": 2, "input2": 1, "output":[3, 2, 0, 2, 1]},
+						{ "input1": 3, "input2": 2, "output":[5, 1.5, 1, 6, 1]},
+						{ "input1": 10.4, "input2": 3.6, "output":[14, 2.88, 3.2, 37.44, 6.8]}
+						
+					]
+			}
+	},
+	{
+		"type": "negative cases",
+		"datas":
+			{
+				"data":
+					[
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" }
+					]
+			}
+	},
+	{
+		"type": "edge cases",
+		"datas":
+			{
+				"data":
+					[
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" }
+					]
+			}
+	},
+    {
+		"type": "boundary cases",
+		"datas":
+			{
+				"data":
+					[
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" },
+						{ "input1": "2", "input2": "1" }
+					]
+			}
+	}
+]

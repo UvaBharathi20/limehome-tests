@@ -1,0 +1,7 @@
+{
+    "one":["+", "ADDITION"],
+    "five":["-", "SUBTRACTION"],
+    "four":["MULTIPLICATION", "*"],
+    "two":["DIVISION", "/"],
+    "three":["MODULO","%"]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "cypress-starter-kit",
-  "version": "10.1.0",
+  "name": "my-project",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -17,10 +17,10 @@
   "keywords": [
     ""
   ],
-  "author": "James Sheasby Thomas (@RightSaidJames)",
-  "license": "MIT",
+  "author": "",
+  "license": "",
+
   "devDependencies": {
-    "cypress": "^11.2.0",
-    "cypress-mochawesome-reporter": "^3.5.0"
+    "cypress": "^11.0.0"
   }
 }

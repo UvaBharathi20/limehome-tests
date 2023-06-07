@@ -5,6 +5,15 @@ module.exports = defineConfig({
   fixturesFolder: 'cypress/fixtures',
   screenshotsFolder: 'cypress/screenshots',
   videosFolder: 'cypress/videos',
+  reporter: 'cypress-mochawesome-reporter',
+  video: true,
+  reporterOptions: {
+    reportDir: "cypress/report",
+    charts: true,
+    reportPageTitle: 'Cypress Inline Reporter',
+    embeddedScreenshots: true,
+    inlineAssets: true, //Adds the asserts inline
+  },
   e2e: {
     setupNodeEvents(on, config) {
       /* 
@@ -14,7 +23,8 @@ module.exports = defineConfig({
       Alternatively, you can import your old plugins/index.js file by uncommenting line 17
       */
       // return require('cypress/plugins/index.js')(on, config)
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
-    baseUrl: 'https://the-internet.herokuapp.com/',
+    baseUrl: 'http://juliemr.github.io/protractor-demo/',
   },
 })
