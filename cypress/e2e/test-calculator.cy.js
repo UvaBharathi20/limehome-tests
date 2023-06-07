@@ -41,6 +41,10 @@ it('test calcualtor division',() => {
       cy.calculate(inputs[0].datas.data[x].input1, inputs[0].datas.data[x].input2)
         cy.get('.form-inline > .ng-binding').contains(inputs[0].datas.data[x].output[1])
     }
+    for (var y in inputs[2].datas.data) {
+      cy.calculate(inputs[0].datas.data[x].input1, inputs[0].datas.data[x].input2)
+        cy.get('.form-inline > .ng-binding').contains(inputs[0].datas.data[x].output[1])
+    }
   })
 })
 it('test calcualtor reminder',() => {
